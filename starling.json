@@ -1,0 +1,15 @@
+{
+  "name": "Starling",
+  "inference_params": {
+    "pre_prompt_prefix": "",
+    "pre_prompt_suffix": "",
+    "input_prefix": "GPT4 User:",
+    "input_suffix": "<|end_of_turn|>GPT4 Assistant:",
+    "antiprompt": [
+      "<|end_of_turn|>",
+      "<GPT4 Assistant:",
+      "GPT4 User:",
+      "GPT4 | End of Turn"
+    ]
+  }
+}

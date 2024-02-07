@@ -1,0 +1,16 @@
+{
+  "name": "Nous Capybara",
+  "load_params": {
+    "rope_freq_scale": 0.25
+  },
+  "inference_params": {
+    "input_prefix": "USER:",
+    "input_suffix": "ASSISTANT:",
+    "pre_prompt_prefix": "",
+    "pre_prompt_suffix": "\n\n",
+    "pre_prompt": "",
+    "antiprompt": [
+      "USER:"
+    ]
+  }
+}
