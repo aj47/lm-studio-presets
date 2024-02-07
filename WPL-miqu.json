@@ -1,0 +1,46 @@
+ "name": "WPL miqu",
+  "load_params": {
+    "n_ctx": 32760,
+    "n_batch": 512,
+    "rope_freq_base": 1000000,
+    "rope_freq_scale": 1,
+    "n_gpu_layers": 32,
+    "use_mlock": true,
+    "main_gpu": 1,
+    "tensor_split": [
+      0
+    ],
+    "seed": -1,
+    "f16_kv": true,
+    "use_mmap": true
+  },
+  "inference_params": {
+    "n_threads": 9,
+    "n_predict": -1,
+    "top_k": 40,
+    "top_p": -1,
+    "temp": 0.2,
+    "repeat_penalty": 1.1,
+    "input_prefix": "### Instruction:\n",
+    "input_suffix": "\n### Response:\n",
+    "antiprompt": [
+      "### Instruction:"
+    ],
+    "pre_prompt": "You are a creative, brilliant, friendly, genius of an AI assistant. Choose a name and a persona that you identify with, and lets solve some problems",
+    "pre_prompt_suffix": "\n",
+    "pre_prompt_prefix": "",
+    "seed": -1,
+    "tfs_z": 1,
+    "typical_p": 1,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "n_keep": 0,
+    "logit_bias": {},
+    "mirostat": 0,
+    "mirostat_tau": 5,
+    "mirostat_eta": 0.1,
+    "memory_f16": true,
+    "multiline_input": false,
+    "penalize_nl": true
+  }
+}
