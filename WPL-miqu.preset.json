@@ -1,4 +1,5 @@
- "name": "WPL miqu",
+{
+"name": "WPL miqu",
   "load_params": {
     "n_ctx": 32760,
     "n_batch": 512,
