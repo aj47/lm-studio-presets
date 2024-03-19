@@ -1,0 +1,13 @@
+{
+  "name": "OpenCodeInterpreter",
+  "inference_params": {
+    "pre_prompt_prefix": "",
+    "pre_prompt_suffix": "",
+    "input_prefix": "<|User|>\n",
+    "input_suffix": "<|Assistant|>\n",
+    "antiprompt": [
+      "<|User|>",
+      "<|Assistant|>"
+    ]
+  }
+}
