@@ -1,0 +1,15 @@
+{
+  "name": "StarCoder",
+  "inference_params": {
+    "top_p": 0.9,
+    "temp": 0.0,
+    "input_prefix": "",
+    "input_suffix": "",
+    "pre_prompt": "",
+    "pre_prompt_prefix": "",
+    "pre_prompt_suffix": "",
+    "antiprompt": [
+      "<|im_end|>"
+    ]
+  }
+}
